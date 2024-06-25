@@ -63,7 +63,15 @@ http://127.0.0.1:8000/api/v1/orders
     "order_value":520
 }
 ```
+##### Indexed DB 
+To view index db interface
+```
+http://127.0.0.1:8000/
+```
 
+![alt text](screenshots/indexdb-1.png)
+
+![alt text](screenshots/indexdb-2.png)
 
 ##### Postman Collection 
 
