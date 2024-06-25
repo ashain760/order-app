@@ -3,12 +3,12 @@
 Clone these file to the XAMPP server
 
 ```
- git clone https://github.com/ashain760/lawn-care-app.git
+ git clone https://github.com/ashain760/order-app.git
 ```
 
 ## API 
 
-#### Laravel 11 latest PHP Framework (php version 8)
+#### Laravel 11 latest PHP Framework (php version 8.2)
 
 - after clone run these commands
 ```
@@ -78,6 +78,4 @@ http://127.0.0.1:8000/
 ```
 
 ```
-
-or `public/backups` folder include postman collection and database
 
