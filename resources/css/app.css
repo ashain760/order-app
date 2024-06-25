@@ -1,0 +1,12 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+
+.user-form{
+    width: 50%;
+    background: #d3d3ff;
+    padding: 20px;
+}
+
+.data-table{
+    background: #d4e6fe;
+    padding: 20px;
+}
