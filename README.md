@@ -44,7 +44,7 @@ php artisan serve
 - Postman Collection 
 
 ```
-
+https://api.postman.com/collections/28914586-18421068-959e-4207-bb27-6a98f349ee4a?access_key=PMAT-01J197PJB06F3MDZAD1DRSFVW3
 ```
 
 - If passport keys not available in storage folder run below command
