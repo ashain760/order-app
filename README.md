@@ -34,12 +34,18 @@ CREATE DATABASE `order-db`;
 php artisan migrate:fresh --seed
 php artisan passport:client --personal
 ```
-- after that run the laravel api => http://127.0.0.1:8000/
+- after that run the below command => http://127.0.0.1:8000/api/v1/health
 ```
 php artisan serve
 ```
 
 #### How to use
+
+- Postman Collection 
+
+```
+
+```
 
 - Login to get access token
 
@@ -74,9 +80,5 @@ http://127.0.0.1:8000/
 
 ![alt text](screenshots/indexdb-2.png)
 
-##### Postman Collection 
 
-```
-
-```
 
