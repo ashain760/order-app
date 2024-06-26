@@ -4,7 +4,6 @@ namespace App\Repositories\mysql;
 use App\Exceptions\CustomErrorException;
 use App\Interfaces\OrderRepositoryInterface;
 use App\Models\Order;
-use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Log;
 
 class OrderRepository implements OrderRepositoryInterface
@@ -12,7 +11,7 @@ class OrderRepository implements OrderRepositoryInterface
 
     /**
      * @param $request
-     * @return Order
+     * @return Order|mixed
      * @throws CustomErrorException
      */
     public function createOrder($request)
