@@ -64,6 +64,8 @@ http://127.0.0.1:8000/api/v1/authenticate/login
 }
 ```
 
+![alt text](screenshots/login.png)
+
 - Start queue worker on CMD
 ```
 php artisan queue:work
@@ -77,6 +79,10 @@ http://127.0.0.1:8000/api/v1/orders
     "order_value":520
 }
 ```
+![alt text](screenshots/order.png)
+
+![alt text](screenshots/queue-job.png)
+
 ##### Indexed DB 
 To view index db interface
 ```
