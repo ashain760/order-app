@@ -13,6 +13,7 @@ Clone these file to the XAMPP server
 - after clone run these commands
 ```
 composer install
+npm install
 ```
 - create a `.env` file from `.env.example`
 - Add your database connection in .env file
