@@ -19,11 +19,4 @@ class OrderRequestCreate extends FormRequest
         ];
     }
 
-    public function messages()
-    {
-        return [
-
-        ];
-    }
-
 }
