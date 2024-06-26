@@ -47,6 +47,13 @@ php artisan serve
 
 ```
 
+- If passport keys not available in storage folder run below command
+
+```
+ php artisan passport:keys
+```
+
+
 - Login to get access token
 
 ```
