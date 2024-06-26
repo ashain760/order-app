@@ -21,28 +21,19 @@ class Cors
             'Access-Control-Allow-Methods' => '*',
             'Access-Control-Allow-Headers' => 'Content-Type, X-Auth-Token, Origin, Authorization',
         ];
-        
+
         if ($request->getMethod() == "OPTIONS"){
             //The client-side application can set only headers allowed in Access-Control-Allow-Headers
             return response()->json('OK',200,$headers);
         }
-        
+
         $response = $next($request);
-        
+
         foreach ($headers as $key => $value) {
             $response->headers->set($key, $value);
         }
-        
+
         return $response;
 
-//        $response = $next($request);
-//
-//        $response->headers->set('Access-Control-Allow-Origin', '*');
-//        $response->headers->set('Access-Control-Allow-Methods', '*');
-//        $response->headers->set('Access-Control-Allow-Headers', 'Content-Type, X-Auth-Token, Origin, Authorization');
-//
-//        return $response;
-        
-        
     }
 }

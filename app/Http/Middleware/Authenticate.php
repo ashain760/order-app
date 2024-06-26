@@ -16,12 +16,21 @@ class Authenticate
 
     protected $parser;
 
+    /**
+     * Authenticate constructor.
+     * @param Parser $parser
+     */
     public function __construct(
         Parser $parser
     ) {
         $this->parser = $parser;
     }
 
+    /**
+     * @param Request $request
+     * @param Closure $next
+     * @return \Illuminate\Http\JsonResponse|mixed
+     */
     public function handle(Request $request, Closure $next)
     {
         // Get the token from the request header
